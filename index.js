@@ -5,7 +5,7 @@ var vdate = today.getDate() + '-' + (today.getMonth()+1) + '-' + today.getFullYe
 
 var TelegramBot = require('node-telegram-bot-api');
 const { type } = require('os');
-const token = '1823486960:AAFQT4E11r9RKnz-4UmnA-NxrY01uk4xyuc'
+const token = 'YOUR BOT TOKEN HERE'
 const bot = new TelegramBot(token, {polling:true});
 
 bot.on('message', (msg) => {
